@@ -11,15 +11,7 @@ Le défi consiste à concevoir un algorithme qui garantit une distribution équi
 - Une liste d'enfants, chaque enfant ayant une liste de bonbons préférés.
 - Une liste de bonbons disponibles avec la quantité de chaque type.
 
-### Contraintes :
-- Chaque enfant doit recevoir au moins un bonbon de sa liste préférée.
-- La distribution doit être aussi équitable que possible.
-- Les bonbons disponibles sont limités en quantité.
-
-### Sortie :
-Une distribution optimale des bonbons qui respecte les préférences des enfants tout en maximisant la satisfaction générale.
-
-### EXEMPLES :
+#### Exemples :
 
 - Entrée :
 	- Enfants :
@@ -31,7 +23,15 @@ Une distribution optimale des bonbons qui respecte les préférences des enfants
 		- Caramel (8),
 		- Guimauve (5),
 		- Fruits (6)
-- Sortie attendue :
-	- Alice : Chocolat (1), Guimauve (1)
-	- Bob : Caramel (1), Fruits (1)
-	- Charlie : Chocolat (1), Caramel (1)
+
+### Contraintes :
+- Chaque enfant doit recevoir au moins un bonbon de sa liste préférée.
+- La distribution doit être aussi équitable que possible.
+- Les bonbons disponibles sont limités en quantité.
+
+### Sortie :
+Une distribution optimale des bonbons qui respecte les préférences des enfants tout en maximisant la satisfaction générale.
+
+
+---
+

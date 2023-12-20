@@ -1,6 +1,6 @@
 """
 author = RATIARIVELO Nekena Rayane
-version = 1.0.0
+version = 2.0.0
 """
 
 
@@ -55,7 +55,8 @@ class Solver:
 
     def compute_satisfaction(self, state: dict[str, dict[str, int]]):
         total = [sum(state[children].values()) for children in state.keys()]
-        # because it should verify the rightness constraint, we can assume that it should be unique
+        # because the rightness constraint should be verified,
+        # we can assume that it should be unique
         return total[0]
 
     def is_right_for_all_children(self, state: dict[str, dict[str, int]]):
