@@ -15,4 +15,4 @@ Le problème peut être modéliser comme étant un problème CSP défini comme s
 	- Les bonbons disponibles sont limités en quantité.
 	$$\forall b \in \text{Candy}, \sum_{} {x_{e, b}} \le \max(b)$$
 	- maximisant la satisfaction générale (à méditer)
-   $$\forall X = (x^{'}_{e,b}) \in \mathbb{M}_{m \times n}(\mathbb{N}), \forall e_i \in \text{Children},  \sum_{k} {x_{e_i, k}} = \max\{ \sum_{k} {x^{'}_{e, k}} \}$$
+   $$\forall X = (x_{e, k}^{'}) \in \mathbb{M}\_{m \times n}(\mathbb{N}), \forall e_i \in \text{Children},  \sum_{k} {x_{e_i, k}} = \max\{ \sum_{k} {x^{'}_{e, k}} \}$$
